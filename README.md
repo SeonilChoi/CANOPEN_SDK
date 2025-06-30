@@ -11,7 +11,7 @@ pip install -e .
 
 ## Usage
 ```
-import canopen_sdk
+from canopen_sdk.manager import load_motor_manager
 ```
 
 ## Supported Motor Drivers
